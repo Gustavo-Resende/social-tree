@@ -1,0 +1,97 @@
+/* RESET CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/* CORPO TOTAL DA PAGINA */
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #FAF7FD;
+}
+
+/* BOX TOTAL DO CONTEUDO */
+.box-master{
+    height: 85vh;
+    width: 30vw;
+}
+
+/* BOX DA FOTO DE PERFIL */
+.box-img-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 32%;
+}
+
+/* TRAÇADO POR VOLTA DA FOTO DE PERFIL */
+.stroke-profile{
+    position: absolute;
+    width: 100%;
+}
+
+/* FOTO DE PERFIL */
+.img-profile{
+    height: 250px;
+    width: 250px;
+}
+
+/* BOX NOME DO INSTAGRAM */
+.box-name-insta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #BB99DD;
+}
+
+/* BOX TOTAL DOS LINKS */
+.box-links-master{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* BOX LINKS */
+.box-links{
+    border: 2px solid #BB99DD;
+    border-radius: 5px;
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #BB99DD;
+}
+
+/* BOX TOTAL DOS ICONES DE BAIXO */
+.box-icons{
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* BOX DE CADA ICONE DE BAIXO */
+.icon-bottom{
+    height: 25px;
+}
